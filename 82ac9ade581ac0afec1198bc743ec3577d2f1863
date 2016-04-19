@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_f247081c",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2016-04-19T13:16:39Z",
+      "side": 1,
+      "message": "No changelog entries on rpm-* branches",
+      "revId": "82ac9ade581ac0afec1198bc743ec3577d2f1863",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
