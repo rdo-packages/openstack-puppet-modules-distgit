@@ -22,6 +22,30 @@
       "revId": "a491e7bbc102a68826015228c06aff0e2f9589bf",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad0f9df_52885422",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 124
+      },
+      "writtenOn": "2016-04-20T10:15:00Z",
+      "side": 0,
+      "message": "I agree for Epoch but regarding version and release, we should specify them as it will be a virtual package without source so without a mean to guess the version and release. WDYT?",
+      "parentUuid": "fad0f9df_929ebc62",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 19
+      },
+      "revId": "a491e7bbc102a68826015228c06aff0e2f9589bf",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
