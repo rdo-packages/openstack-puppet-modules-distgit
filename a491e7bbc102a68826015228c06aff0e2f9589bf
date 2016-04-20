@@ -46,6 +46,30 @@
       "revId": "a491e7bbc102a68826015228c06aff0e2f9589bf",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad0f9df_1282cc00",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-04-20T10:27:08Z",
+      "side": 0,
+      "message": "Mmm... That\u0027s trickier than it seems.\n\nDLRN will always replace whatever Version and Release is in the spec file, see https://github.com/openstack-packages/DLRN/blob/master/scripts/build_rpm.sh#L83-L84 . On top of that, it requires some source repo to be present, even if it is an empty one, and tries to figure out version and release from them, falling back to 0.0.1 if everything fails.\n\nSo, we can create an empty repo, increase the Epoch number and have future packages be 2:0.0.1-hash, or create the empty repo with tags  to have a higher version number than we have today.",
+      "parentUuid": "fad0f9df_52885422",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 19
+      },
+      "revId": "a491e7bbc102a68826015228c06aff0e2f9589bf",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
