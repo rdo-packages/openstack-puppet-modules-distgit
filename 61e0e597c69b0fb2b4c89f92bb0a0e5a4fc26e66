@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bada0100_9080f48c",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2016-04-22T20:44:18Z",
+      "side": 1,
+      "message": "Is it safe to assume puppet \u003e\u003d 3.6 ? As far back as I can go -- kilo -- RDO provides puppet \u003e\u003d 3.6.2 in it\u0027s repositories. Especially considering this is for \u003e\u003d Newton.",
+      "revId": "61e0e597c69b0fb2b4c89f92bb0a0e5a4fc26e66",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
