@@ -53,6 +53,7 @@ Requires:   puppet-ntp
 Requires:   puppet-opendaylight
 Requires:   puppet-openstack_extras
 Requires:   puppet-openstacklib
+Requires:   puppet-oslo
 Requires:   puppet-pacemaker
 Requires:   puppet-qpid
 Requires:   puppet-rabbitmq
