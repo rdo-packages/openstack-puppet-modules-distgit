@@ -17,7 +17,7 @@ A collection of Puppet modules used to install and configure OpenStack.
 
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
