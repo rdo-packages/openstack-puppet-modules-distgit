@@ -2,7 +2,7 @@
 
 Name:           openstack-puppet-modules
 Epoch:          1
-Version:        8.0.0
+Version:        8.0.4
 Release:        1%{?milestone}%{?dist}
 Summary:        Puppet modules used to deploy OpenStack
 License:        ASL 2.0 and GPLv2 and GPLv3
@@ -44,6 +44,9 @@ rm -f %{buildroot}/%{_datadir}/openstack-puppet/modules/nova/files/nova-novncpro
 
 
 %changelog
+* Fri May 06 2016 Alan Pevec <apevec AT redhat.com> - 8.0.4-1
+- Update to 8.0.4
+
 * Tue Apr  5 2016 Haïkel Guémar <hguemar@fedoraproject.org> - 1:8.0.0-1
 - Update to 8.0.0
 
