@@ -73,7 +73,6 @@ Requires:   puppet-timezone
 Requires:   puppet-tomcat
 Requires:   puppet-tripleo
 Requires:   puppet-trove
-Requires:   puppet-tuskar
 Requires:   puppet-uchiwa
 Requires:   puppet-vcsrepo
 Requires:   puppet-vlan
