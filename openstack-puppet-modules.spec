@@ -84,8 +84,7 @@ Requires:   puppet >= 2.7.0
 %description
 Metapackage for OpenStack Puppet Modules
 
-#%prep
-#%setup -q -n openstack-puppet-modules-1.0
+%prep
 
 %build
 
