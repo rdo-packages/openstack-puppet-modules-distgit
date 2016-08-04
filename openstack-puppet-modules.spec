@@ -54,6 +54,7 @@ Requires:   puppet-opendaylight
 Requires:   puppet-openstack_extras
 Requires:   puppet-openstacklib
 Requires:   puppet-oslo
+Requires:   puppet-ovn
 Requires:   puppet-pacemaker
 Requires:   puppet-rabbitmq
 Requires:   puppet-redis
