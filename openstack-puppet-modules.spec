@@ -95,3 +95,4 @@ Metapackage for OpenStack Puppet Modules
 %files
 
 %changelog
+# REMOVEME: error caused by commit 
