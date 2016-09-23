@@ -1,7 +1,7 @@
 Name:       openstack-puppet-modules
 Epoch:      1
-Version:    XXX
-Release:    XXX
+Version:    9.0.0
+Release:    0.1.0b1%{?dist}
 Summary:    Puppet modules to deploy OpenStack
 License:    ASL 2.0
 
@@ -95,3 +95,5 @@ Metapackage for OpenStack Puppet Modules
 %files
 
 %changelog
+* Fri Sep 23 2016 Alfredo Moralejo <amoralej@redhat.com> 9.0.0-0.1.0b1
+- Update to 9.0.0.0b1
