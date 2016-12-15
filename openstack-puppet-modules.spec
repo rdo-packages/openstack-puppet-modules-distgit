@@ -58,6 +58,7 @@ Requires:   puppet-openstacklib
 Requires:   puppet-oslo
 Requires:   puppet-ovn
 Requires:   puppet-pacemaker
+Requires:   puppet-panko
 Requires:   puppet-rabbitmq
 Requires:   puppet-redis
 Requires:   puppet-remote
