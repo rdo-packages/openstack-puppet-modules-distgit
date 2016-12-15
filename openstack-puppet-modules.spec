@@ -22,6 +22,7 @@ Requires:   puppet-concat
 Requires:   puppet-contrail
 Requires:   puppet-corosync
 Requires:   puppet-datacat
+Requires:   puppet-ec2api
 Requires:   puppet-elasticsearch
 Requires:   puppet-firewall
 Requires:   puppet-fluentd
