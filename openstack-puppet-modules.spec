@@ -33,6 +33,7 @@ Requires:   puppet-haproxy
 Requires:   puppet-heat
 Requires:   puppet-horizon
 Requires:   puppet-inifile
+Requires:   puppet-ipaclient
 Requires:   puppet-ironic
 Requires:   puppet-java
 Requires:   puppet-kafka
