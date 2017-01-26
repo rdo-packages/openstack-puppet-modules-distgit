@@ -19,6 +19,7 @@ Requires:   puppet-certmonger
 Requires:   puppet-cinder
 Requires:   puppet-collectd
 Requires:   puppet-concat
+Requires:   puppet-congress
 Requires:   puppet-contrail
 Requires:   puppet-corosync
 Requires:   puppet-datacat
