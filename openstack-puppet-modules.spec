@@ -72,6 +72,7 @@ Requires:   puppet-staging
 Requires:   puppet-stdlib
 Requires:   puppet-swift
 Requires:   puppet-sysctl
+Requires:   puppet-tacker
 Requires:   puppet-tempest
 Requires:   puppet-timezone
 Requires:   puppet-tomcat
