@@ -25,6 +25,7 @@ Requires:   puppet-corosync
 Requires:   puppet-datacat
 Requires:   puppet-ec2api
 Requires:   puppet-elasticsearch
+Requires:   puppet-etcd
 Requires:   puppet-firewall
 Requires:   puppet-fluentd
 Requires:   puppet-git
