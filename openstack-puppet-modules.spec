@@ -83,6 +83,7 @@ Requires:   puppet-tripleo
 Requires:   puppet-trove
 Requires:   puppet-uchiwa
 Requires:   puppet-vcsrepo
+Requires:   puppet-vitrage
 Requires:   puppet-vlan
 Requires:   puppet-vswitch
 Requires:   puppet-xinetd
