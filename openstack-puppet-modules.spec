@@ -1,7 +1,7 @@
 Name:       openstack-puppet-modules
 Epoch:      1
 Version:    9.3.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Puppet modules to deploy OpenStack
 License:    ASL 2.0
 
@@ -69,6 +69,7 @@ Requires:   puppet-staging
 Requires:   puppet-stdlib
 Requires:   puppet-swift
 Requires:   puppet-sysctl
+Requires:   puppet-systemd
 Requires:   puppet-tempest
 Requires:   puppet-timezone
 Requires:   puppet-tomcat
@@ -95,6 +96,9 @@ Metapackage for OpenStack Puppet Modules
 %files
 
 %changelog
+* Tue Feb 28 2017 Tim Rozet <trozet@redhat.com> - 1:9.3.0-2
+- Adds puppet-systemd
+
 * Wed Oct 26 2016 Jon Schlueter <jschluet@redhat.com> 1:9.3.0-1
 - Update to 9.3.0
 
