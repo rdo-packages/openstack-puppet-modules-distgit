@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac4a560_498d3131",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-03-01T13:06:02Z",
+      "side": 1,
+      "message": "OPM is only for TripleO at this point, Packstack has individual Requires: puppet-* since Newton\n\nAll Requires lines here should be moved puppet-tripleo and only single Requires: puppet-tripleo left as backward compat before dropping OPM meta RPM.\n\nAlso, list of Requires in puppet-tripleo must be kept in sync with upstream https://github.com/openstack/tripleo-puppet-elements/blob/master/elements/puppet-modules/source-repository-puppet-modules\n\nATM it\u0027s lacking https://github.com/rdo-packages/puppet-tripleo-distgit/blob/rpm-master/puppet-tripleo.spec#L14-L21",
+      "revId": "dce01a9b5cdd7e750f740d2aead441f0610793d7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
