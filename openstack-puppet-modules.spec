@@ -9,6 +9,8 @@ URL:        https://github.com/redhat-openstack/openstack-puppet-modules
 
 BuildArch:  noarch
 
+# XXX: OPM is about to be deprecated
+# Do not add new requires in OPM
 Requires:   puppet-aodh
 Requires:   puppet-apache
 Requires:   puppet-barbican
