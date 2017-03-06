@@ -54,6 +54,7 @@ Requires:   puppet-neutron
 Requires:   puppet-nova
 Requires:   puppet-nssdb
 Requires:   puppet-ntp
+Requires:   puppet-octavia
 Requires:   puppet-opendaylight
 Requires:   puppet-openstack_extras
 Requires:   puppet-openstacklib
