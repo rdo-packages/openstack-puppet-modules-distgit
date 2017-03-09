@@ -1,7 +1,7 @@
 Name:       openstack-puppet-modules
 Epoch:      1
 Version:    10.0.0
-Release:    0.1.0b1%{?dist}
+Release:    1%{?dist}
 Summary:    Puppet modules to deploy OpenStack
 License:    ASL 2.0
 
@@ -102,6 +102,10 @@ Metapackage for OpenStack Puppet Modules
 %files
 
 %changelog
+* Thu Mar 09 2017 Alfredo Moralejo <amoralej@redhat.com> 1:10.0.0-1
+- Stable ocata release 10.0.0
+- Added puppet-ocatavia requirement
+
 * Thu Feb 16 2017 Alfredo Moralejo <amoralej@redhat.com> 1:10.0.0-0.1.0b1
 - Update to 10.0.0.0b1
 
