@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac4a560_92576d02",
+        "filename": "openstack-puppet-modules.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 62
+      },
+      "writtenOn": "2017-03-09T12:35:15Z",
+      "side": 1,
+      "message": "puppet-octavia",
+      "revId": "4d6da3ecc28161dd2d153afa0e0a00efcd06466c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
