@@ -11,6 +11,7 @@ BuildArch:  noarch
 
 Requires:   puppet-aodh
 Requires:   puppet-apache
+Requires:   puppet-auditd
 Requires:   puppet-barbican
 Requires:   puppet-cassandra
 Requires:   puppet-ceilometer
