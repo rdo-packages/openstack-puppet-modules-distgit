@@ -1,3 +1,6 @@
+# Guard for Red Hat OpenStack packaged modules
+%global rhosp 0
+
 Name:       openstack-puppet-modules
 Epoch:      1
 Version:    XXX
@@ -20,7 +23,6 @@ Requires:   puppet-certmonger
 Requires:   puppet-cinder
 Requires:   puppet-collectd
 Requires:   puppet-concat
-Requires:   puppet-congress
 Requires:   puppet-contrail
 Requires:   puppet-corosync
 Requires:   puppet-datacat
@@ -75,8 +77,6 @@ Requires:   puppet-staging
 Requires:   puppet-stdlib
 Requires:   puppet-swift
 Requires:   puppet-sysctl
-Requires:   puppet-systemd
-Requires:   puppet-tacker
 Requires:   puppet-tempest
 Requires:   puppet-timezone
 Requires:   puppet-tomcat
@@ -90,6 +90,12 @@ Requires:   puppet-xinetd
 Requires:   puppet-zaqar
 Requires:   puppet-zookeeper
 Requires:   puppet >= 2.7.0
+
+%if 0%{?rhosp} == 0
+Requires:   puppet-congress
+Requires:   puppet-systemd
+Requires:   puppet-tacker
+%endif
 
 %description
 Metapackage for OpenStack Puppet Modules
