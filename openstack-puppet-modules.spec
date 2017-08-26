@@ -3,8 +3,8 @@
 
 Name:       openstack-puppet-modules
 Epoch:      1
-Version:    XXX
-Release:    XXX
+Version:    11.0.0
+Release:    0.1.0rc1%{?dist}
 Summary:    Puppet modules to deploy OpenStack
 License:    ASL 2.0
 
@@ -109,3 +109,6 @@ Metapackage for OpenStack Puppet Modules
 %files
 
 %changelog
+* Sat Aug 26 2017 Haïkel Guémar <hguemar@fedoraproject.org> - 1:11.0.0-0.1.0rc1
+- Update to 11.0.0.0rc1
+
