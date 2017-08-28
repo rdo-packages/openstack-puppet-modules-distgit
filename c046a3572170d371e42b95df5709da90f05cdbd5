@@ -1,0 +1,8 @@
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Workflow+1: Alan Pevec <alan.pevec@redhat.com>
+Verified+2: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-by: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Submitted-at: Mon, 28 Aug 2017 11:25:50 +0000
+Reviewed-on: https://review.rdoproject.org/r/8993
+Project: openstack/openstack-puppet-modules-distgit
+Branch: refs/heads/pike-rdo
