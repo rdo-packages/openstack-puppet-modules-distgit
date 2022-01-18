@@ -1,7 +1,7 @@
 # UUID Group Name
 global:Registered-Users	Registered Users
 bf5a77ced885f080581435fc964b1ef6633a57ed	openstack/openstack-puppet-modules-distgit-core
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
 63673ea7f2ae6a5666566b1ea9f14e473d00f5a9	rdo-core
 62e4ade20de56daa9d6d68ae6a97c41b8f512326	openstack/openstack-puppet-modules-distgit-ptl
 global:Anonymous-Users	Anonymous Users
